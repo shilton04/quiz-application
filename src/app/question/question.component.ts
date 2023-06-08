@@ -41,7 +41,6 @@ export class QuestionComponent implements OnInit {
     this.currentQuestion--;
   }
 
-  test(){}
 
   answer(currentQno: number, option: any) {
     if (currentQno === this.questionList.length) {
